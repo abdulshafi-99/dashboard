@@ -1,0 +1,46 @@
+/* global variables */
+:root {
+    --transition: .3s;
+}
+
+
+/* Start box */
+.flex { display: flex; }
+.align-center { align-items: center; }
+/* End box */
+
+/* Start background */
+.bg-white { background-color: white; }
+/* End background */
+
+/* Start padding && margin */
+    /* padding */
+.p-10 { padding: 10px }
+.p-20 { padding: 20px; }
+    /* margin */
+.m-20 { margin: 20px; }
+    /* margin-top */
+.mt-0 { margin-top: 0; }
+    /* margin-right */
+.mr-10 { margin-right: 10px; }
+/* End padding && margin */
+
+/* Start position */
+.pos-relative { position: relative; }
+/* End position */
+
+/* Start font */
+    /* text align */
+.txt-c { text-align: center; }
+    /* color */
+.c-black { color: black; }
+    /* font-size */
+.fs-14 { font-size: 14px; }
+/* End font */
+
+/* Start borders */
+.rad-6 { border-radius: 6px; }
+/* End borders */
+
+/* Start shadows */
+/* End shadows */
