@@ -25,6 +25,10 @@
 .mr-10 { margin-right: 10px; }
 /* End padding && margin */
 
+/* Start width && height */
+.w-full { width: 100%; }
+/* End width && height */
+
 /* Start position */
 .pos-relative { position: relative; }
 /* End position */
@@ -44,3 +48,9 @@
 
 /* Start shadows */
 /* End shadows */
+
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
