@@ -1,11 +1,11 @@
-/* global variables */
-:root {
-    --transition: .3s;
-}
-
 
 /* Start box */
 .flex { display: flex; }
+.flex-between {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
 .align-center { align-items: center; }
 /* End box */
 
@@ -16,6 +16,7 @@
 /* Start padding && margin */
     /* padding */
 .p-10 { padding: 10px }
+.p-15 {padding: 15px}
 .p-20 { padding: 20px; }
     /* margin */
 .m-20 { margin: 20px; }
